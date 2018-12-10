@@ -79,13 +79,13 @@ def get_results():
 
 
 if __name__ == '__main__':
-    print '*' * 50
+    print '*' * 65
     print '**'
     print '**'
     print '**   Welcome to this round of Jeopardy: Kenya edition'
     print '**'
     print '**'
-    print '*' * 50
+    print '*' * 65
     print ''
     print('please Enter your name to get started... ')
     name = raw_input('> ')
