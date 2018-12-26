@@ -66,7 +66,7 @@ def ask_question(prompt):
     guess = raw_input('whatcha think? ')
 
     if guess.lower() == answer[0]:
-        print cowsay.tux('Yaaasss! %s, you right, you right it\'s %s' %
+        print cowsay.tux('Yaaasss! %s, %s' %
                          (random.choice(glow_ups), answer[1]))
         correct_answers += 1
     else:
